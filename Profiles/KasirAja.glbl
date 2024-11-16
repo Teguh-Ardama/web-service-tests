@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>KasirAja</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://kasir-api.zelz.my.id'</initValue>
+      <name>host</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'sample@ex.com'</initValue>
+      <name>email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'123adsfadf@'</initValue>
+      <name>password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRmYWM0MjdjLWU5MGUtNGVkYi1hNDFjLTk5YTBiMjkzZjM0YSIsImNvbXBhbnlJZCI6ImUyOTRiMjk0LWNkY2EtNDNjMS1iMjk4LWYyZDM0YmFmYTNjZiIsImlhdCI6MTY3NTE2MjYwOH0.qX35fhL7q9mR1aivEZsFO8ElJHTBdy_dOjPSoaQaCH8'</initValue>
+      <name>refreshToken</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'2'</initValue>
+      <name>userId</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

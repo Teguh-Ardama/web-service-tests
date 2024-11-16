@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>POST Sale</name>
+   <tag></tag>
+   <elementGuidId>289e61e3-a191-4d2a-a87f-7ce33a177efe</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <autoUpdateContent>true</autoUpdateContent>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\n    \&quot;officeId\&quot;: \&quot;${officeId}\&quot;,\n    \&quot;customerId\&quot;: \&quot;${customerId}\&quot;,\n    \&quot;date\&quot;: \&quot;${currentdate}\&quot;,\n    \&quot;invoice\&quot;: \&quot;test\&quot;,\n    \&quot;amount\&quot;: 2000,\n    \&quot;discount\&quot;: 0,\n    \&quot;description\&quot;: \&quot;test saja\&quot;,\n    \&quot;items\&quot; : [\n        {\n            \&quot;productId\&quot;: \&quot;${productId-1}\&quot;,\n            \&quot;quantity\&quot;: 1,\n            \&quot;price\&quot;: 2000\n        },\n        {\n            \&quot;productId\&quot;: \&quot;${productId-2}\&quot;,\n            \&quot;quantity\&quot;: 1,\n            \&quot;price\&quot;: 4000\n        }\n    ]\n}&quot;,
+  &quot;contentType&quot;: &quot;text/plain&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <katalonVersion>8.6.9</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>${host}/sales</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.host</defaultValue>
+      <description></description>
+      <id>0a9d46d2-b197-478e-99d8-400a41175a2a</id>
+      <masked>false</masked>
+      <name>host</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.officeId</defaultValue>
+      <description></description>
+      <id>957f6d4a-cd59-4c64-8bd2-61b9a927e428</id>
+      <masked>false</masked>
+      <name>officeId</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.customerId</defaultValue>
+      <description></description>
+      <id>1d023e75-f5c4-4b35-9dc9-323dcdf9b0a8</id>
+      <masked>false</masked>
+      <name>customerId</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.currentdate</defaultValue>
+      <description></description>
+      <id>f97c5859-a399-47b8-990d-a03be9d321a7</id>
+      <masked>false</masked>
+      <name>currentdate</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.productId-1</defaultValue>
+      <description></description>
+      <id>915eeb3e-1c09-4234-a144-51b8e4cbd83e</id>
+      <masked>false</masked>
+      <name>productId-1</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.productId-2</defaultValue>
+      <description></description>
+      <id>55fbda89-0267-4eb8-9d8c-4a5f989e0bd1</id>
+      <masked>false</masked>
+      <name>productId-2</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>GET Purchases</name>
+   <tag></tag>
+   <elementGuidId>49504d05-0853-4d7d-b5c0-95c5db8edf9f</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <autoUpdateContent>true</autoUpdateContent>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
+   <katalonVersion>8.6.9</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>GET</restRequestMethod>
+   <restUrl>${host}/purchases?startDate=${currentdate}&amp;endDate=${futuredate}&amp;q=t&amp;page=1</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.host</defaultValue>
+      <description></description>
+      <id>f48adc25-3399-466b-8494-3ed744bcfeae</id>
+      <masked>false</masked>
+      <name>host</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.currentdate</defaultValue>
+      <description></description>
+      <id>4992180e-05a1-4781-b243-89060e740101</id>
+      <masked>false</masked>
+      <name>currentdate</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.futuredate</defaultValue>
+      <description></description>
+      <id>c99833a7-5ce1-4773-8fdf-af6ef37e5855</id>
+      <masked>false</masked>
+      <name>futuredate</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>
